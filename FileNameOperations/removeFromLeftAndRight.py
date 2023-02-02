@@ -5,7 +5,7 @@
 # 2. Run the script through Command Prompt (or Powershell or Terminal)
 # 3. On the Command Prompt, type the number of characters to remove from the left of the file name. Press Enter
 # 4. On the Command Prompt, type the number of characters to remove from the right of the file name. Press Enter
-# 5. Select file(s) to rename with the prefix from the "Open File" window.
+# 5. Select file(s) to rename with the rule defined in Step 3. and 4. from the "Open File" window.
 
 # Note: Each run can only remove the same number of characters per file. All selected files in Step 5. will have the same number of characters removed as defined in Steps 3. and 4.
 
