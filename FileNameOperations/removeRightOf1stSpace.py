@@ -1,3 +1,14 @@
+# Rename multiple files via GUI by removing everything on the right of the first space character (except extension).
+
+# INSTRUCTIONS:
+# 1. Use Python's pip install to add the necessary libraries: "os" and "tkinter".
+# 2. Run the script through Command Prompt (or Powershell or Terminal)
+# 3. Select file(s) to rename from the "Open File" window.
+
+# Note: All files selected will have the right of its first space, including the space, removed, with the exception of its extension.
+
+# Ex: "fileName done delete me - John.txt" becomes "fileName.txt"
+
 # Standard imports
 from tkinter import filedialog # GUI library
 import tkinter as tk
