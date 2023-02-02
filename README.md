@@ -1,10 +1,10 @@
 # usefulPythonCode-S.Watanabe
 Collection of Python scripts I personally use everyday.
 
-- FileNameOperations: 
+## FileNameOperations: 
 Manipulates file name for multiple files in Windows. Contains scripts for adding prefices ("[prefix]-filename.ext"), suffices ("filename-[suffix].ext") and replacing/deleting specific phrases in a file name.
 
-- cv2ImageOperations:
+## cv2ImageOperations:
 Makes extensive use of OpenCV to perform simple image transformations, such as resizing and binary filtering.
 
 Developed in Python 3.
