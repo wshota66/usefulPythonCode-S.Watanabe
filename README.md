@@ -2,7 +2,7 @@
 Collection of Python scripts I personally use everyday.
 
 ## FileNameOperations
-Manipulates file name(s) for multiple file(s) in Windows. Contains scripts for adding prefices ("[prefix]-filename.ext"), suffices ("filename-[suffix].ext") and replacing/deleting specific phrases in a file name.
+Manipulates file name(s) for multiple file(s) in Windows. Contains scripts for adding prefices ("[prefix]-filename.ext"), suffices ("filename-[suffix].ext") and replacing/deleting specific phrases in a file name. Basic operations but comes in very handy when organizing files by file name in single-directory databases.
 
 ## cv2ImageOperations
 Makes extensive use of OpenCV to perform simple image transformations, such as resizing and binary filtering. Multiple images can be selected on the "open file" window to manipulate them in bulk.
