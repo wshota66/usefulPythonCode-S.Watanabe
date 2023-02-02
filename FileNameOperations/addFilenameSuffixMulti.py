@@ -8,6 +8,8 @@
 
 # Note: Each run can only add one suffix. All selected files in Step 4. will have the same prefix defined in Step 3.
 
+# Format: [original File Name][suffix].ext (e.g. secretFiles--2022.pdf, where [original File Name] = "secretFiles" and [suffix] = "--2022").
+
 import os
 from tkinter import filedialog
 
