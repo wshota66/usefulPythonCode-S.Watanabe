@@ -1,17 +1,17 @@
-# Rename multiple files via GUI by adding prefix at beginning.
+# Rename multiple files via GUI by adding suffix at end.
 
 # INSTRUCTIONS:
 # 1. Use Python's pip install to add the necessary libraries: "os" and "tkinter".
 # 2. Run the script through Command Prompt (or Powershell or Terminal)
-# 3. On the Command Prompt, type the prefix to add to the selected files. Press Enter.
-# 4. Select file(s) to rename with the prefix from the "Open File" window.
+# 3. On the Command Prompt, type the suffix to add to the selected files. Press Enter.
+# 4. Select file(s) to rename with the suffix from the "Open File" window.
 
-# Note: Each run can only add one prefix. All selected files in Step 4. will have the same prefix defined in Step 3.
+# Note: Each run can only add one suffix. All selected files in Step 4. will have the same prefix defined in Step 3.
 
 import os
 from tkinter import filedialog
 
-addPrefix = input("Filename Prefix: ")
+addSuffix = input("Filename Suffix: ")
 fileListSring = filedialog.askopenfilenames()
 
 fileList = list(fileListSring)
@@ -28,8 +28,10 @@ for filePath in fileList:
 			workDir =	workDir + '\\' + paths
 
 	workDir = workDir + '\\'
-	fileName = filePathSplit[-1]
+	fileNameSplit = filePathSplit[-1].split('.')
+	fileName = fileNameSplit[0]
+	fileExtension = fileNameSplit[-1]
 	
-	newFilename = workDir + addPrefix + fileName
+	newFilename = workDir + fileName + addSuffix + '.' + fileExtension
 	
 	os.rename(r''+filePath,r''+newFilename)
