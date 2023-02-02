@@ -1,13 +1,13 @@
-
-# Rename multiple files via GUI by adding prefix at beginning.
+# Rename multiple files via GUI by removing specified number of characters from the left and number of characters from the right.
 
 # INSTRUCTIONS:
 # 1. Use Python's pip install to add the necessary libraries: "os" and "tkinter".
 # 2. Run the script through Command Prompt (or Powershell or Terminal)
-# 3. On the Command Prompt, type the prefix to add to the selected files. Press Enter.
-# 4. Select file(s) to rename with the prefix from the "Open File" window.
+# 3. On the Command Prompt, type the number of characters to remove from the left of the file name. Press Enter
+# 4. On the Command Prompt, type the number of characters to remove from the right of the file name. Press Enter
+# 5. Select file(s) to rename with the prefix from the "Open File" window.
 
-# Note: Each run can only add one prefix. All selected files in Step 4. will have the same prefix defined in Step 3.
+# Note: Each run can only remove the same number of characters per file. All selected files in Step 5. will have the same number of characters removed as defined in Steps 3. and 4.
 
 # Visual note: [Left] --> [fileName] <-- [Right] (extension not included)
 
