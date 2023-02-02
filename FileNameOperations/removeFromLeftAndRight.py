@@ -1,3 +1,21 @@
+
+# Rename multiple files via GUI by adding prefix at beginning.
+
+# INSTRUCTIONS:
+# 1. Use Python's pip install to add the necessary libraries: "os" and "tkinter".
+# 2. Run the script through Command Prompt (or Powershell or Terminal)
+# 3. On the Command Prompt, type the prefix to add to the selected files. Press Enter.
+# 4. Select file(s) to rename with the prefix from the "Open File" window.
+
+# Note: Each run can only add one prefix. All selected files in Step 4. will have the same prefix defined in Step 3.
+
+# Visual note: [Left] --> [fileName] <-- [Right] (extension not included)
+
+# Ex: original = fileNameULTRA.pdf
+#	trimLeft = 4
+#	trimRight = 2
+# RESULT = NameULT.pdf
+
 # Standard imports
 from tkinter import filedialog # GUI library
 import tkinter as tk
